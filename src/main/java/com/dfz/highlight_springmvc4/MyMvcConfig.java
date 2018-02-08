@@ -20,5 +20,6 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {// 2
 		viewResolver.setSuffix(".jsp");
 		viewResolver.setViewClass(JstlView.class);
 		return viewResolver;
+		//riewResoler end
 	}
 }
